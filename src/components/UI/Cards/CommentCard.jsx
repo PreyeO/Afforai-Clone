@@ -1,25 +1,27 @@
 import ProductHuntBtn from "../Buttons/ProductHuntBtn";
-import { reviews } from "../../../data";
+import { comments } from "../../../data";
 
-const ReviewCard = () => {
+const CommentCard = () => {
   return (
     <div className="flex overflow-x-auto">
-      {reviews.slice(0, 7).map((review) => (
+      {comments.slice(0, 7).map((comment) => (
         <div
-          key={review.id}
+          key={comment.id}
           className="p-[32px] border border-solid border-gray-300 rounded-md px-6 ml-6"
         >
-          <p className="text-[#222222] w-[533px] pb-[5rem]">{review.content}</p>
+          <p className="text-[#222222] w-[533px] pb-[5rem]">
+            {comment.content}
+          </p>
 
           <div className="w-full p-[1px] bg-[#B9B7B7]"></div>
           <div className="flex justify-between">
-            <div className="flex gap-4">
+            <div className="flex gap-4 ">
               <img
-                src={review.image}
+                src={comment.image}
                 alt="reviewers photo"
                 className="w-[32px] h-[32px]"
               />
-              <h3 className="text-[#525252] text-sm">{review.author}</h3>
+              <h3 className="text-[#525252] text-sm">{comment.author}</h3>
             </div>
 
             <div className="">
@@ -32,4 +34,4 @@ const ReviewCard = () => {
   );
 };
 
-export default ReviewCard;
+export default CommentCard;

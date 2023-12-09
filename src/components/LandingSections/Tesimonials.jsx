@@ -1,7 +1,8 @@
 import ProductHuntImg from "../../assets/producthunt.webp";
 import SubTitle from "../UI/Titles/SubTitle";
-import { reviews } from "../../data";
-import ProductHuntBtn from "../UI/Buttons/ProductHuntBtn";
+import Marquee from "react-fast-marquee";
+import CommentCard from "../UI/Cards/CommentCard";
+import ReviewCard from "../UI/Cards/ReviewCard";
 
 const Testimonial = () => {
   return (
@@ -21,27 +22,16 @@ const Testimonial = () => {
           title="Loved by thousands, all around the World"
           className="  font-normal text-[#525252]"
         />
-    
       </div>
-      <div className=" flex flex-col gap-7">
-        {reviews.map((review) => (
-          <div key={review.id} className="flex flex-col gap-10 w-[600px] 
-          h-[266px] border border-solid border-gray-300 rounded-md px-6">
-            <p className="text-[#222222] w-[533px]">{review.content}</p>
 
-            <div className="w-full p-[1px] bg-[#B9B7B7] "></div>
-            <div className="flex justify-between">
-              <div className="flex gap-4 ">
-              <img src={review.image} alt="reviewers photo" className="w-[32px] h-[32px]"/>
-                <h3 className="text-[#525252] text-sm">{review.author}</h3>
-              </div>
+      <div className="flex flex-col gap-7 justify-center items-center">
+        <Marquee autoFill pauseOnClick>
+          <ReviewCard />
+        </Marquee>
 
-              <div className="">
-                <ProductHuntBtn />
-              </div>
-            </div>
-          </div>
-        ))}
+        <Marquee autoFill pauseOnClick direction="right">
+          <CommentCard />
+        </Marquee>
       </div>
     </section>
   );

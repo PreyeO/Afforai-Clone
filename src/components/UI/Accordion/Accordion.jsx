@@ -1,5 +1,6 @@
 import { useState } from "react";
 import arrow from "../../../assets/faqArrow.svg"
+import { faqData } from "../../../data";
 
 
 const Accordion = () => {
@@ -54,49 +55,6 @@ const Accordion = () => {
   );
 };
 
-const faqData = [
-  {
-    id: "1",
 
-    questions: "Is Afforai free?",
-    answers:
-      "Yes, Afforai is free for all new users. Upon signing up, users are given 50 permanent credits",
-  },
-
-  {
-    id: "2",
-    questions: "What are subscription credits versus permanent credits?",
-    answers:
-      "Subscription credits come from monthly payments, while permanent credits come from top ups. Subscription credits will be used before permanent credits, and subscription credits expire every month while permanent credits stay.Currently Afforai only support uploading local documents and websites, in the near future we will integrate these cloud solutions. Sign up with us to get updated.",
-  },
-
-  {
-    id: "3",
-    questions:
-      "Does Afforai support documents storing on the cloud like Google Drive, One Drive, or Drop Box?",
-    answers:
-      "Currently Afforai only support uploading local documents and websites, in the near future we will integrate these cloud solutions. Sign up with us to get updated.",
-  },
-
-  {
-    id: "4",
-    questions: "Does Afforai support uploading images and video?",
-    answers:
-      "Currently Afforai supports OCR for scanned PDF, but not via image file directly. Afforai currently working on working with video and audio transcript.",
-  },
-
-  {
-    id: "5",
-    questions: "Does Afforai support collaboration between accounts?",
-    answers:
-      "Currently Afforai is working on a solution to allow users to share chatbots and files. Sign up with us to get updated when this feature roll out.",
-  },
-  {
-    id: "6",
-    questions: "Is my data secured?",
-    answers:
-      "Yes your data is secured with Afforai. We don't store your conversation with the AI, and the files you uploaded on the system is stored on the cloud using Microsoft Azure and MongoDB with their standard security. LLM calls are made using OpenAI Azure with their security measures.",
-  },
-];
 
 export default Accordion;
