@@ -5,7 +5,14 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        manrope: ["Manrope", "sans-serif"],
+        robotoMono: ["Roboto Mono", "monospace"],
+        plusJakarta: ["Plus Jakarta Sans", "sans-serif"],
+      },
+     
+    },
   },
   plugins: [],
 }
