@@ -17,8 +17,8 @@ const Guarantee =() => {
 
                 <div className="flex flex-col gap-5 ">
             <HeaderCard label="My promise to you" className="w-[143px]"/>
-            <SubTitle title="100% money back guaranteed if you are not satisfied"/>
-            <Paragraph title="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai." className="w-[678px]"/>
+            <SubTitle title="100% money back guaranteed if you are not satisfied" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai." className="w-[678px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
             </div>
            
            

@@ -1,10 +1,10 @@
-const SubTitle = ({ title }) => {
+const SubTitle = ({ title,  className }) => {
     return (
-      <h1
-        className="text-3xl w-[524px] font-semibold text-[#222222] leading-10 "
+      <p
+        className={` ${className}`}
       >
         {title}
-      </h1>
+      </p>
     );
   };
   

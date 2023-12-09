@@ -14,8 +14,8 @@ const Features =() => {
             <div className="flex justify-evenly">
             <div className="flex flex-col gap-6 justify-center">
        
-            <SubTitle title="Say goodbye to long, tiresome documents" />
-            <Paragraph  title="Afforai seamlessly translates documents, files, spreadsheets & websites, filtering out what you don’t need & answering your specific questions within seconds." className="w-[476px]"/>
+            <SubTitle title="Say goodbye to long, tiresome documents" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph  title="Afforai seamlessly translates documents, files, spreadsheets & websites, filtering out what you don’t need & answering your specific questions within seconds." className="w-[476px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
         
            <FeaturesTitle title="A whip smart research assistant"/>
            <FeaturesTitle title="We speak every language"/>

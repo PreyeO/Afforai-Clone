@@ -20,8 +20,8 @@ const FileWizard =() => {
 
                 <div className="flex flex-col gap-5 justify-center">
             <HeaderCard label="Get more out of your files" className="w-[182px]"/>
-            <SubTitle title="File Wizard - a game changing new feature"/>
-            <Paragraph title="Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time." className="w-[482px]"/>
+            <SubTitle title="File Wizard - a game changing new feature" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time." className="w-[482px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
             </div>
            
            

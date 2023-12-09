@@ -18,8 +18,8 @@ const Integrations =() => {
 
           
             <HeaderCard label="Seamless Integrations - Coming Soon" className="w-[250px]"/>
-            <SubTitle title="Upload Files directly from Google Drive, One Drive & Dropbox"/>
-            <Paragraph title="Afforai allows you to upload files directly from Google Drive, One Drive & Dropbox, meaning your experience will be smooth sailing regardless of your preferred" className="w-[636px]"/>
+            <SubTitle title="Upload Files directly from Google Drive, One Drive & Dropbox" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="Afforai allows you to upload files directly from Google Drive, One Drive & Dropbox, meaning your experience will be smooth sailing regardless of your preferred" className="w-[636px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
        
            
            

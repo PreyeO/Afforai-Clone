@@ -24,20 +24,20 @@ const Modules =() => {
            </div>
                 <div className="flex flex-col gap-5 justify-center">
             <HeaderCard label="Different Modules Available" className="w-[183px]"/>
-            <SubTitle title="Customize your assistant with a range of different modes"/>
-            <Paragraph title="Further power your questions with additional modes. Afforai allows you to switch between three different modes, each which have unique ways of utilising our AI tools to answer your question(s)." className="w-[692px]"/>
+            <SubTitle title="Customize your assistant with a range of different modes" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="Further power your questions with additional modes. Afforai allows you to switch between three different modes, each which have unique ways of utilising our AI tools to answer your question(s)." className="w-[692px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
            
             <div className="flex flex-col gap-3">
-            <ModuleTitle title="Fast Mode (default)" src={FastForward} label="1 credit"/>
-            <ModuleSubTitle title="Quickly ask a question and receive an answer from the AI. This mode is most suited for applications that require only a small part of the documents to be scanned (ex. FAQ Chatbot, Search)." className="w-[612px]"/>
+            <ModuleTitle title="Fast Mode (default)" src={FastForward} label="1 credit" />
+            <ModuleSubTitle title="Quickly ask a question and receive an answer from the AI. This mode is most suited for applications that require only a small part of the documents to be scanned (ex. FAQ Chatbot, Search)." className="w-[612px] text-sm"/>
             </div>
             <div className="flex flex-col gap-3">
             <ModuleTitle title="Powerful Mode" src={PowerSwitch} label="4 credit"/>
-            <ModuleSubTitle title="Get answers of extra high quality from the AI. This mode is most suited for applications that require inferences as well as the full documents to be scanned (ex. Textual Data Analysis, Search with Inference, Report Generation)." className="w-[612px]"/>
+            <ModuleSubTitle title="Get answers of extra high quality from the AI. This mode is most suited for applications that require inferences as well as the full documents to be scanned (ex. Textual Data Analysis, Search with Inference, Report Generation)." className="w-[612px] text-sm"/>
             </div>
             <div className="flex flex-col gap-3">
             <ModuleTitle title="Google Mode" src={Search} label="5 credit"/>
-            <ModuleSubTitle title="Supplement your answers with the top 3 results from Google Search. This adds extra reliability to back up our already incredibly accurate answers."  className="w-[612px]"/>
+            <ModuleSubTitle title="Supplement your answers with the top 3 results from Google Search. This adds extra reliability to back up our already incredibly accurate answers."  className="w-[612px] text-sm"/>
             </div>
             </div>
          

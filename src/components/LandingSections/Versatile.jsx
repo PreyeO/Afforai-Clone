@@ -17,8 +17,8 @@ const Versatile =() => {
             <div className="flex justify-evenly">
                 <div className="flex flex-col gap-5 justify-center">
             <HeaderCard label="Most versatile" className="w-[156px]"/>
-            <SubTitle title="Create multiple chatbots for different purposes"/>
-            <Paragraph title="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes." className="w-[524px]"/>
+            <SubTitle title="Create multiple chatbots for different purposes" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes." className="w-[524px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
             <div className="flex gap-5 ">
                 <TryBtn label="Get started"/>
                 <LightBtn label="Viewing price"/>

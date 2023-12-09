@@ -3,7 +3,6 @@ import Card2 from "../../assets/card2.png";
 import Card3 from "../../assets/card3.png";
 import SubTitle from "../UI/Titles/SubTitle";
 import Paragraph from "../UI/Titles/Paragraph";
-import HeaderCard from "../UI/Cards/HeaderCard";
 import ImageTitle from "../UI/Titles/ImageTitle";
 import ImageSubTitle from "../UI/Titles/ImageSubTitle";
 
@@ -11,10 +10,10 @@ const Pros = () => {
   return (
     <section className="flex flex-col mt-[17rem] justify-center text-center items-center gap-7">
     
-        <SubTitle title="Unquestionable accuracy & reliability" className="" />
+        <SubTitle title="Unquestionable accuracy & reliability" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10" />
         <Paragraph
           title="We pride ourselves on the quality of our chatbot’s responses, and go the extra mile to ensure the accuracy & reliability of our answers."
-          className="w-[550px]"
+          className="w-[550px] font-normal text-[#525252] tracking-[0.02rem] leading-6"
         />
 
         <div className=" flex gap-5">

@@ -17,11 +17,11 @@ const Advice =() => {
 
         <div className="flex flex-col gap-5 justify-center">
       
-      <SubTitle title="Start saving time today!"/>
-      <Paragraph title="Join an ever-growing community, and get with Afforai started free of charge!" className=""/>
+      <SubTitle title="Start saving time today!" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10" />
+      <Paragraph title="Join an ever-growing community, and get with Afforai started free of charge!" className="font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
       <TryBtn label="Get Started for Free"/>
       </div>
-            <div className=" z-20 my-[-200px] ">
+            <div className=" z-20 mt-[-200px] ">
             <img src={RGB} alt="Image of our features" className="rounded-xl"/>
            </div>
 

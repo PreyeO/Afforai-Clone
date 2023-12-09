@@ -9,8 +9,10 @@ import Languages from "../components/LandingSections/Languages";
 import Modules from "../components/LandingSections/Modules";
 import Productivity from "../components/LandingSections/Productivity";
 import Pros from "../components/LandingSections/Pros";
+import Testimonial from "../components/LandingSections/Tesimonials";
 import Versatile from "../components/LandingSections/Versatile";
 import WhyUs from "../components/LandingSections/WhyUs";
+import Footer from "../layouts/Footer";
 
 import NavBar from "../layouts/NavBar";
 
@@ -33,9 +35,11 @@ const LandingPage = () => {
             <FileWizard  />
             <Integrations />
             <Pros />
+            <Testimonial />
             <Guarantee />
             <Advice />
             <Faq />
+            <Footer />
         </main>
     )
 }

@@ -21,8 +21,8 @@ const WhyUs =() => {
         <section className="flex flex-col mt-[17rem] justify-center items-center text-center gap-5">
        
             <HeaderCard label="Why choose us?" className="w-[156px]"/>
-            <SubTitle title="Built for the user"/>
-            <Paragraph title="Afforai is where exceptional customer focus meets exceptional technology." className="w-[417px]"/>
+            <SubTitle title="Built for the user" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
+            <Paragraph title="Afforai is where exceptional customer focus meets exceptional technology." className="w-[417px] font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
 
             <div className="flex flex-wrap justify-center items-center gap-[24px]">
                 <div className="w-[35%] bg-gray-100 border border-solid border-gray-300
