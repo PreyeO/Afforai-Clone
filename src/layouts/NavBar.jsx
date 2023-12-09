@@ -4,8 +4,8 @@ import TryBtn from "../components/UI/Buttons/TryBtn";
 
 const NavBar = () => {
   return (
-    <nav className="flex flex-col p-3 font-manrope text-[#111111] font-medium ">
-          <div className="max-w-screen-lg h-[57.6px] px-8 border border-solid border-gray-300 rounded-xl backdrop-filter backdrop-blur-md bg-opacity-50 bg-white ">
+    <nav className="flex flex-col p-3  text-[#111111] font-medium max-w-[1244px] mx-auto">
+          <div className=" h-[57.6px] px-8 border border-solid border-gray-300 rounded-xl backdrop-filter backdrop-blur-md bg-opacity-50 bg-white ">
 
             <div className="flex justify-between">
                 <div className="flex gap-2 ">

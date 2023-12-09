@@ -9,6 +9,7 @@ import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"
 import ImageTitle from "../UI/Titles/ImageTitle"
 import ImageSubTitle from "../UI/Titles/ImageSubTitle"
+import SpanCard from "../UI/Cards/SpanCard"
 
 
 
@@ -19,7 +20,7 @@ const WhyUs =() => {
     return(
         <section className="flex flex-col mt-[17rem] justify-center items-center text-center gap-5">
        
-            <HeaderCard label="Why choose us?"/>
+            <HeaderCard label="Why choose us?" className="w-[156px]"/>
             <SubTitle title="Built for the user"/>
             <Paragraph title="Afforai is where exceptional customer focus meets exceptional technology." className="w-[417px]"/>
 
@@ -30,8 +31,7 @@ const WhyUs =() => {
                 <div className=" h-[92px] bg-white px-4 text-left py-4">
                     <div className="flex gap-5 ">
                 <ImageTitle title="Cross Language Querying"/>
-                <div className="w-[36px] h-[16px] bg-[#EFE6FF] text-[#6004FF] text-[9px] 
-                text-center rounded-full mt-1 pt-[2px]">NEW</div>
+                <SpanCard label="NEW" className="text-[9px] w-[36px] h-[16px]"/>
                 </div>
                 <ImageSubTitle title="Afforai is able to translate your documents 
                 to more than 100 languages, meaning wherever you’re from, you can be assured we can help." className="w-[481px]"/>
@@ -51,8 +51,7 @@ const WhyUs =() => {
                 <div className="flex gap-5 ">
                 <ImageTitle title="Multiple file types supported"/>
 
-                <div className="w-[36px] h-[16px] bg-[#EFE6FF] text-[#6004FF] text-[9px] 
-                text-center rounded-full mt-1 pt-[2px]">NEW</div>
+                <SpanCard label="NEW" className="text-[9px] w-[36px] h-[16px]"/>
                 </div>
                 <ImageSubTitle title="Afforai is able to translate your documents 
                 to more than 100 languages, meaning wherever you’re from, you can be assured we can help." className="w-[684px]"/>

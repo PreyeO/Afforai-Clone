@@ -12,7 +12,7 @@ const Features =() => {
     return(
         <section className="flex flex-col mt-[17rem]">
             <div className="flex justify-evenly">
-            <div className="flex flex-col gap-6 mt-[8rem]">
+            <div className="flex flex-col gap-6 justify-center">
        
             <SubTitle title="Say goodbye to long, tiresome documents" />
             <Paragraph  title="Afforai seamlessly translates documents, files, spreadsheets & websites, filtering out what you don’t need & answering your specific questions within seconds." className="w-[476px]"/>
