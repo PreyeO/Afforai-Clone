@@ -1,6 +1,6 @@
 
 import VersatileImage from "../../assets/versatile.png"
-import VersatileImgMobile from "../../assets/versatileImage.png"
+import VersatileImgMobile from "../../assets/versatileimage.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"
