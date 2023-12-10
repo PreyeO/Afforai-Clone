@@ -18,7 +18,7 @@ const WhyUs =() => {
 
 
     return(
-        <section className="flex flex-col mt-[17rem] justify-center items-center text-center gap-5">
+        <section className="flex flex-col lg:mt-[17rem] mt-[10rem] justify-center items-center text-center gap-5">
        
             <HeaderCard label="Why choose us?" className="w-[156px]"/>
             <SubTitle title="Built for the user" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
