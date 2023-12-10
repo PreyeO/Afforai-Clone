@@ -1,6 +1,6 @@
 
-import LanguageImageMobile from "../../assets/languageImage.png"
-import LanguageImage from "../../assets/languageImg.png"
+import LanguageImageMobile from "../../assets/languageimage.png"
+import LanguageImage from "../../assets/language.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"

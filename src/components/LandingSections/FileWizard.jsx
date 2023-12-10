@@ -1,5 +1,5 @@
 
-import FileMobileImage from "../../assets/fileImage.png"
+import FileMobileImage from "../../assets/file.png"
 import FileImage from "../../assets/fileImage.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
