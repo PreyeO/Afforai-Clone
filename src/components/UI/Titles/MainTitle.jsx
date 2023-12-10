@@ -1,7 +1,7 @@
-const MainTitle = ({ title }) => {
+const MainTitle = ({ title, className }) => {
   return (
     <h1
-      className="text-5xl max-w-screen-sm font-semibold text-[#222222] "
+      className={` ${className} max-w-screen-sm font-semibold text-[#222222] leading-tight `}
     >
       {title}
     </h1>

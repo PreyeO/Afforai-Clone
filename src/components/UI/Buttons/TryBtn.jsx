@@ -1,9 +1,9 @@
-const TryBtn = ({ label, fontSize }) => {
+const TryBtn = ({ label, className }) => {
   return (
     <button
-      className="btn bg-color px-2  font-medium 
-        "
-      style={{ fontSize: fontSize }}
+      className={` ${className} rounded-xl bg-color px-2  font-medium lg:w-[137px] h-[37px]`} 
+      
+  
     >
       {label}
     </button>

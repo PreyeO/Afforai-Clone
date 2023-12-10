@@ -5,7 +5,7 @@ const Paragraph = ({ title, className }) => {
 
 
     return (
-      <p className= {`${className} `}>
+      <p className= {`${className} text-[#525252]  `}>
         {title}
       </p>
     );

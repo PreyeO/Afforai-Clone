@@ -23,7 +23,7 @@ const LandingPage = () => {
 
 
     return(
-        <main className="bg-white min-h-screen font-manrope">
+        <main className="bg-white min-h-screen font-manrope  ">
             <NavBar />
             <Hero />
             <Features />

@@ -4,10 +4,11 @@ import GoodIcon from "../../../assets/goodIcon.svg"
 
 
 
-const FeaturesCard = ({ label }) => {
+const FeaturesCard = ({ label, className }) => {
     return (
-        <div className="flex bg-[FAFAFA] border border-solid border-gray-300 rounded-md p-1 px-2 gap-1 ">
-            <img src={GoodIcon} alt="good icon" />
+        <div className={` ${className} flex border border-solid border-gray-300 rounded-md
+          px-2 gap-2 w-auto text-[#212529] text-base h-[24px] justify-center items-center`}>
+            <img src={GoodIcon} alt="good icon" className="w-[16px] h-[16px]" />
       <h5 className="text-[13px]
        text-[#525252]">
         {label}
@@ -17,4 +18,4 @@ const FeaturesCard = ({ label }) => {
   };
   
   export default FeaturesCard;
-  
+    
