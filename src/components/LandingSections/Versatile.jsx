@@ -1,5 +1,5 @@
 
-import VersatileImage from "../../assets/versatileImg.png"
+import VersatileImage from "../../assets/versatile.png"
 import VersatileImgMobile from "../../assets/versatileImage.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"

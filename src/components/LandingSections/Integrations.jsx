@@ -1,5 +1,5 @@
 import UploadImage from "../../assets/uploadImage.png"
-import UploadMobileImage from "../../assets/uploadImg.png"
+import UploadMobileImage from "../../assets/upload.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"

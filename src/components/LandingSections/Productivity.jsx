@@ -1,6 +1,6 @@
 
 import ProductivityImage from "../../assets/ProductivityImage.png"
-import ProductivityImageMobile from "../../assets/ProductivityImg.png"
+import ProductivityImageMobile from "../../assets/Productivity.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"
