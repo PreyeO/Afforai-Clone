@@ -1,6 +1,6 @@
 
 import FileMobileImage from "../../assets/file.png"
-import FileImage from "../../assets/fileImage.png"
+import FileImage from "../../assets/wizard.png"
 import SubTitle from "../UI/Titles/SubTitle"
 import Paragraph from "../UI/Titles/Paragraph"
 import HeaderCard from "../UI/Cards/HeaderCard"
