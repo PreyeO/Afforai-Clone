@@ -8,26 +8,27 @@ import ImageSubTitle from "../UI/Titles/ImageSubTitle";
 
 const Pros = () => {
   return (
-    <section className="flex flex-col mt-[17rem] justify-center text-center items-center gap-7">
+    <section className="flex flex-col lg:mt-[19rem] mt-[10rem] lg:justify-center 
+    lg:text-center lg:items-center gap-7 justify-start text-left items-start px-4 lg:px-0">
     
-        <SubTitle title="Unquestionable accuracy & reliability" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10" />
+        <SubTitle title="Unquestionable accuracy & reliability" className="text-4xl lg:w-[604px] w-[368px] font-semibold" />
         <Paragraph
           title="We pride ourselves on the quality of our chatbot’s responses, and go the extra mile to ensure the accuracy & reliability of our answers."
-          className="w-[550px] font-normal text-[#525252] tracking-[0.02rem] leading-6"
+          className=" w-[368px] lg:w-[550px] font-normal  tracking-[0.02rem] leading-6"
         />
 
-        <div className=" flex gap-5">
+        <div className=" flex gap-5 flex-wrap">
           <div className=" bg-gray-100 border border-solid border-gray-300 rounded-lg">
             <img
               src={Card1}
               alt="Image of our features"
-              className="w-[404px] h-[228px]"
+              className="lg;w-[404px] lg:h-[228px] w-[400px] h-[256px]"
             />
             <div className=" h-[94px] bg-white px-4 text-left py-4">
               <ImageTitle title="Trusted by users all over the World" />
               <ImageSubTitle
                 title="Afforai is used all around the World, saving thousands of people time and money with our speed & accuracy."
-                className="w-[372px]"
+                className="lg:w-[372px] w-[368px]"
               />
             </div>
           </div>
@@ -35,13 +36,13 @@ const Pros = () => {
             <img
               src={Card2}
               alt="Image of our features"
-              className="w-[408px] h-[230px]"
+              className="lg:w-[408px] lg:h-[230px] w-[400px] h-[256px]"
             />
             <div className=" h-[94px] bg-white px-4 text-left py-4">
               <ImageTitle title="Information filtering" />
               <ImageSubTitle
                 title="Afforai gives you the highest quality answers, and filters out any irrelevant information."
-                className="w-[376px]"
+                className="lg:w-[376px] w-[368px]"
               />
             </div>
           </div>
@@ -50,13 +51,13 @@ const Pros = () => {
             <img
               src={Card3}
               alt="Built in Comprehension Model"
-              className="w-[404px] h-[229px]"
+              className="lg:w-[404px] lg:h-[229px] w-[400px] h-[256px]"
             />
             <div className=" h-[94px] bg-white px-4 text-left py-4">
               <ImageTitle title="Cross Language Querying" />
               <ImageSubTitle
                 title="Our powerful comprehension model increases the power of our data retrieval.!"
-                className="w-[372px]"
+                className="lg:w-[372px] w-[368px]"
               />
             </div>
           </div>

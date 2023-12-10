@@ -4,7 +4,7 @@ import Accordion from "../UI/Accordion/Accordion";
 
 const Faq = () => {
   return (
-    <section className="flex flex-col mt-[17rem] justify-center items-center text-center">
+    <section className="flex flex-col lg:mt-[17rem] mt-[10rem] justify-center items-center text-center">
       <div className="flex flex-col gap-5 justify-center items-center">
         <SubTitle title="FAQs" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
         <Paragraph

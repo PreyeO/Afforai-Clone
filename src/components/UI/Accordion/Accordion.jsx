@@ -19,7 +19,7 @@ const Accordion = () => {
         {faqData.map((item, i) => (
           <div
             key={item.id}
-            className="max-w-screen-lg flex border border-solid border-gray-300 rounded-md flex-col px-6 font-normal mb-5"
+            className="lg:w-[1146px] w-[401px] flex border border-solid border-gray-300 rounded-md flex-col px-6 font-normal mb-5"
           >
             <div className="flex">
               <div className="flex-grow"> 

@@ -8,7 +8,7 @@ const ModuleTitle = ({ title, src, label }) => {
         alt="Our fast mode modules"
         className="w-[23px] h-[24px]"
       />
-      <h4 className=" text-[#3A0299] font-medium">{title}</h4>
+      <h4 className=" text-[#3A0299] font-medium text-base">{title}</h4>
       <SpanCard label={label} className="text-sm font-semibold p-1" />
     </div>
   );

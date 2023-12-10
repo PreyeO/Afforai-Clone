@@ -12,17 +12,17 @@ const Advice =() => {
 
 
     return(
-        <section className="flex flex-col mt-[17rem] justify-center items-center text-center">
+        <section className="flex flex-col lg:mt-[19rem] mt-[10rem] justify-center items-center text-center">
         
 
-        <div className="flex flex-col gap-5 justify-center">
+        <div className="flex flex-col gap-5 justify-center items-center">
       
-      <SubTitle title="Start saving time today!" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10" />
+      <SubTitle title="Start saving time today!" className="text-3xl  font-semibold leading-10" />
       <Paragraph title="Join an ever-growing community, and get with Afforai started free of charge!" className="font-normal text-[#525252] tracking-[0.02rem] leading-6"/>
-      <TryBtn label="Get Started for Free"/>
+      <TryBtn label="Get Started for Free" className=""/>
       </div>
             <div className=" z-20 mt-[-200px] ">
-            <img src={RGB} alt="Image of our features" className="rounded-xl"/>
+            <img src={RGB} alt="Image of our features" className="rounded-xl w-[100%]"/>
            </div>
 
           
