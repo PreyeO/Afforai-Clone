@@ -7,12 +7,14 @@ const ReviewCard = () => {
       {reviews.slice(0, 7).map((review) => (
         <div
           key={review.id}
-          className="lg:w-[600px] w-[350px] max-h-[280px]  p-[32px] border border-solid border-gray-300 rounded-md"
+          className="lg:w-[600px] w-[350px]  h-[280px] 
+           p-[32px] border border-solid border-gray-300 
+           rounded-md"  style={{ marginLeft: '20px' }}
         >
           <p className="text-[#222222] max-w-[533px]">{review.content}</p>
 
-          <div className="w-full p-[0.5px] bg-gray-200 mt-[5rem]"></div>
-          <div className="flex justify-between  my-5">
+          <div className="w-full p-[0.5px] bg-gray-200 lg:mt-[5rem]"></div>
+          <div className="flex justify-between lg:my-5 mt-2 lg:mt-0">
             <div className="flex gap-4">
               <img
                 src={review.image}

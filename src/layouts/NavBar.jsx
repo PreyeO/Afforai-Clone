@@ -39,7 +39,7 @@ const NavBar = () => {
 
         <div className="flex gap-2">
           <LightBtn label="Login" className="text-sm "/>
-          <TryBtn label="Try for free" className="text-sm w-[103px]" />
+          <TryBtn label="Try for free" className="text-sm lg:w-[103px] w-auto" />
         </div>
       </div>
     </nav>

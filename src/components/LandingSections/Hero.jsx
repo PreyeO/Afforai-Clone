@@ -34,7 +34,7 @@ const Hero = () => {
         <MainTitle
           title="Your second brain for maximizing productivity"
           className="lg:text-5xl 
-        lg:text-center text-left px-4 text-[40px] leading-tight"
+        lg:text-center text-left px-4 text-[40px]"
         />
         <Paragraph
           title="Afforai is an AI chatbot that searches, summarizes, and translates info from multiple sources to produce trustworthy research. Feed lengthy research documents to stacks of dry compliance requirements and extract the key findings you need."
@@ -47,9 +47,10 @@ const Hero = () => {
           <FeaturesCard label="Ask in Any Language" />
         </div>
 
-        <div className=" lg:hidden">
-          <div className="flex gap-3">
-            <Marquee autoFill pauseOnClick>
+        <div className=" lg:hidden " >
+          
+          <div className="flex gap-3" >
+            <Marquee autoFill pauseOnClick >
               <FeaturesCard label="Summarize Key Findings" />
               <FeaturesCard label="Compare Between Documents" />
               <FeaturesCard label="Search For Answers" />
