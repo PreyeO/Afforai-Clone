@@ -12,7 +12,7 @@ import Pros from "../components/LandingSections/Pros";
 import Testimonial from "../components/LandingSections/Tesimonials";
 import Versatile from "../components/LandingSections/Versatile";
 import WhyUs from "../components/LandingSections/WhyUs";
-// import Footer from "../layouts/Footer";
+import Footer from "../layouts/Footer";
 
 import NavBar from "../layouts/NavBar";
 
@@ -23,7 +23,7 @@ const LandingPage = () => {
 
 
     return(
-        <main className="bg-white min-h-screen font-manrope w-[100%] overflow-hidden">
+        <main className="bg-white min-h-screen font-manrope overflow-hidden">
             <NavBar />
             <Hero />
             <Features />
@@ -39,7 +39,7 @@ const LandingPage = () => {
             <Guarantee />
             <Advice />
             <Faq />
-            {/* <Footer /> */}
+            <Footer />
         </main>
     )
 }

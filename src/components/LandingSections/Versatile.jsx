@@ -20,8 +20,8 @@ const Versatile =() => {
              
             <HeaderCard label="Most versatile" className="inline-block max-w-[130px]"/>
          
-            <SubTitle title="Create multiple chatbots for different purposes" className="text-3xl lg:w-[524px] w-[393px] font-semibold"/>
-            <Paragraph title="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes." className="lg:w-[524px] font-normal w-[393px]"/>
+            <SubTitle title="Create multiple chatbots for different purposes" className="lg:text-4xl max-w-[524px] font-semibold text-3xl"/>
+            <Paragraph title="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes." className="max-w-[524px] font-normal"/>
             <div className="lg:flex gap-5 hidden ">
                 <TryBtn label="Get started"/>
                 <LightBtn label="Viewing price"/>
@@ -29,10 +29,10 @@ const Versatile =() => {
             </div>
       
            <div className="hidden lg:block">
-            <img src={VersatileImage} alt="Image of our features" className="w-[612px] h-[568px]"/>
+            <img src={VersatileImage} alt="Image showing how versatile we are" className="w-[612px] h-[568px]"/>
            </div>
            <div className="lg:hidden block mt-10">
-            <img src={VersatileImgMobile} alt="Image of our features" className="w-[401px] h-[527px]"/>
+            <img src={VersatileImgMobile} alt="Image showing how versatile we are" className="w-[401px] h-[527px]"/>
            </div>
            </div>
         </section>

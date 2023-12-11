@@ -19,7 +19,7 @@ const Accordion = () => {
         {faqData.map((item, i) => (
           <div
             key={item.id}
-            className="lg:w-[1146px] w-[401px] flex border border-solid border-gray-300 rounded-md flex-col px-6 font-normal mb-5"
+            className="max-w-[1146px] flex border border-solid border-gray-300 rounded-md flex-col px-6 font-normal mb-5"
           >
             <div className="flex">
               <div className="flex-grow"> 
@@ -28,16 +28,16 @@ const Accordion = () => {
                   onClick={() => handleButtonToggle(i)}
                 >
                   <div>
-                    <h2 className="font-normal">{item.questions}</h2>
+                    <p className="font-normal text-left">{item.questions}</p>
                   </div>
                   <div className="">
                     {selectedButton === i ? (
                       <button className="">
-                        <img src={arrow} alt="Image of our features" className="" />
+                        <img src={arrow} alt="Image of an arrow" className="" />
                       </button>
                     ) : (
                       <button>
-                        <img src={arrow} alt="Image of our features" className="rotate-180" />
+                        <img src={arrow} alt="Image of an arrow" className="rotate-180" />
                       </button>
                     )}
                   </div>

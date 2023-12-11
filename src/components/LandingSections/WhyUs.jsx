@@ -1,4 +1,8 @@
-
+import ImageCard1 from "../../assets/mobile-landing-6.png"
+import ImageCard2 from "../../assets/mobile-landing-7.png"
+import ImageCard3 from "../../assets/mobile-landing-8.png"
+import ImageCard5 from "../../assets/mobile-landing-9.png"
+import ImageCard4 from "../../assets/mobile-landing-10.png"
 import Card1 from "../../assets/cardone.png"
 import Card5 from "../../assets/cardfive.png"
 import Card2 from "../../assets/cardtwo.png"
@@ -21,14 +25,15 @@ const WhyUs =() => {
         <section className="flex flex-col lg:mt-[17rem] mt-[10rem] justify-center items-center text-center gap-5">
        
             <HeaderCard label="Why choose us?" className="w-[156px]"/>
-            <SubTitle title="Built for the user" className="text-3xl w-[524px] font-semibold text-[#222222] leading-10"/>
-            <Paragraph title="Afforai is where exceptional customer focus meets exceptional technology." className="w-[417px] font-normal leading-4"/>
+            <SubTitle title="Built for the user" className="text-3xl max-w-[524px] font-semibold leading-10"/>
+            <Paragraph title="Afforai is where exceptional customer focus meets exceptional technology." className="max-w-[417px] font-normal leading-4"/>
 
-            <div className="flex flex-wrap justify-center items-center gap-[24px] mt-12">
+            <div className="flex flex-wrap justify-center items-center gap-[24px] mt-12 mx-4">
 
-                <div className=" bg-gray-100 border border-solid border-gray-300
-                 rounded-lg gap-[24px] lg:w-[35%]  ">
-                <img src={Card1} alt="Image of our features" className=" lg:h-[275px] lg:w-[513px] h-[220px] w-[400px]"/> 
+                <div className="lg:w-[40%] bg-gray-100 border border-solid border-gray-300
+                 rounded-lg gap-[24px] w-[320px]  ">
+                <img src={Card1} alt="Image showing why you should use afforia" className=" lg:h-[275px] hidden lg:block"/>
+                <img src={ImageCard1 } alt="Image showing why you should use afforia" className="lg:hidden h-[220px] block"/>  
                 <div className=" lg:h-[92px] h-[110px] bg-white px-4 text-left py-4">
                 <div className="flex gap-5 ">
                 <ImageTitle title="Cross Language Querying"/>
@@ -36,23 +41,26 @@ const WhyUs =() => {
                 </div>
                 <ImageSubTitle title="Afforai is able to translate your documents 
                 to more than 100 languages, meaning wherever you’re from,
-                 you can be assured we can help."   className=" lg:w-[481px] w-[368px]"/>
+                 you can be assured we can help."   className=" max-w-[481px]"/>
                 </div>
                 </div>
 
-                <div className="lg:w-[48%] bg-gray-100 border border-solid border-gray-300 rounded-lg">
-                <img src={Card2} alt="Image of our features" 
-                className="lg:h-[272px] lg:w-[716px] h-[195px] w-[400px]"/> 
+                <div className="lg:w-[50%] w-[320px] bg-gray-100 border border-solid border-gray-300 rounded-lg">
+                <img src={Card2} alt="Image showing why you should use afforia" 
+                className="lg:h-[272px] hidden lg:block"/> 
+                  <img src={ImageCard2} alt="Image showing why you should use afforia" 
+                className="lg:hidden block  h-[179px] w-[365px]"/> 
                 <div className=" h-[110px] lg:h-[94px] bg-white px-4 text-left py-4">
                 <ImageTitle title="Cross Language Querying"/>
                 <ImageSubTitle title="Afforai can extract data from a multitude of formats, including; PDF, URL, DOCX, PPTX & XLSX, as well as your own text & links from Websites.
-                 The possibilities are limitless!"   className="lg:w-[684px] w-[368px]"/>
+                 The possibilities are limitless!"   className="max-w-[684px]"/>
                 </div>
                 </div>
 
-                <div className="flex flex-col gap-[24px]">
+                <div className="flex flex-col gap-[24px] w-[320px] lg:w-[716px]">
                 <div className=" bg-gray-100 border border-solid border-gray-300 rounded-lg ">
-                <img src={Card3} alt="Image of our features" className="lg:h-[249px] lg:w-[716px] h-[196px] w-[400px]"/> 
+                <img src={Card3} alt="Image showing why you should use afforia" className="lg:h-[249px] lg:w-[716px] hidden lg:block"/> 
+                <img src={ImageCard3} alt="Image showing why you should use afforia" className="lg:hidden block h-[179px] w-[320px]"/>
                 <div className="  h-[110px] lg:h-[94px] bg-white px-4 text-left py-4">
                 <div className="flex gap-5 ">
                 <ImageTitle title="Multiple file types supported"/>
@@ -60,24 +68,26 @@ const WhyUs =() => {
                 </div>
                 <ImageSubTitle title="Afforai is able to translate your documents 
                 to more than 100 languages, meaning wherever you’re from, you can be
-                 assured we can help."   className=" lg:w-[684px] w-[368px]"/>
+                 assured we can help." className=" max-w-[684px]"/>
                 </div>
                 </div>
 
                 <div className=" bg-gray-100 border border-solid border-gray-300 rounded-lg ">
-                <img src={Card5} alt="Image of our features" className="h-[196px] lg:h-[249px] lg:w-[716px] w-[400px] "/>
-                <div className="  h-[110px] lg:h-[94px] bg-white px-4 text-left py-4"> 
+                <img src={Card5} alt="Image showing why you should use afforia" className=" lg:h-[249px] lg:w-[716px] hidden lg:block "/>
+                <img src={ImageCard5} alt="Image showing why you should use afforia" className="lg:hidden block h-[196px] w-[365px]"/>
+                <div className="h-[110px] lg:h-[94px] bg-white px-4 text-left py-4"> 
                 <ImageTitle title="Cross Language Querying"/>
-                <ImageSubTitle title="Never Switch tabs again. Afforai’s document viewer means that you can have your uploaded files right next to your chatbot, giving you the ability to search the file, and refer to it for data citations."   className="lg:w-[684px] w-[368px]"/>
+                <ImageSubTitle title="Never Switch tabs again. Afforai’s document viewer means that you can have your uploaded files right next to your chatbot, giving you the ability to search the file, and refer to it for data citations." className="max-w-[684px]"/>
                 </div>
                 </div>
 
                 </div>
                 <div className="lg:w-[35%] bg-gray-100 border border-solid border-gray-300 rounded-lg">
-                <img src={Card4} alt="Image of our features" className="lg:h-[647px] lg:w-[513px] w-[400px] h-[344px]"/> 
+                <img src={Card4} alt="Image showing why you should use afforia" className="hidden lg:block lg:h-[647px] lg:w-[513px]"/> 
+                <img src={ImageCard4} alt="Image showing why you should use afforia" className="lg:hidden block h-[196px] w-[365px]"/>
                 <div className="  h-[110px] lg:h-[94px] bg-white px-4 text-left py-4">
                 <ImageTitle title="Unbreakable Security"/>
-                <ImageSubTitle title="Afforai uses Azure Server & Azure OpenAI API. In other words, your data is more than safe with us. Learn more."  className=" lg:w-[684px] w-[368px]"/>
+                <ImageSubTitle title="Afforai uses Azure Server & Azure OpenAI API. In other words, your data is more than safe with us. Learn more."  className=" max-w-[684px] "/>
                 </div>
                 </div>
                

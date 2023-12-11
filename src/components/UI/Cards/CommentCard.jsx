@@ -7,14 +7,14 @@ const CommentCard = () => {
       {comments.slice(0, 7).map((comment) => (
         <div
           key={comment.id}
-          className="lg:w-[600px] lg:h-[266px] w-[350px] [280px] p-[32px] border border-solid border-gray-300 rounded-md px-6 ml-6"
-        >
-          <p className="text-[#222222] lg:w-[533px] pb-[5rem] w-[316px]">
+          className="lg:w-[600px] w-[350px] max-h-[280px] p-[32px] border border-solid border-gray-300 rounded-md"
+          >
+       <p className="text-[#222222] max-w-[533px]">
             {comment.content}
           </p>
 
-          <div className="w-full p-[0.5px] bg-gray-200"></div>
-          <div className="flex justify-between mt-5">
+          <div className="w-full p-[0.5px] bg-gray-200 mt-[5rem]"></div>
+          <div className="flex justify-between  my-5">
             <div className="flex gap-4 ">
               <img
                 src={comment.image}

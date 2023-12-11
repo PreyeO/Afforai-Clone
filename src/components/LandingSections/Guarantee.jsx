@@ -17,13 +17,13 @@ const Guarantee =() => {
 
             <div className="flex flex-col gap-5 ">
             <HeaderCard label="My promise to you" className="inline-block max-w-[143px]"/>
-            <MainTitle title="100% money back guaranteed if you are not satisfied" className="text-3xl lg:text-4xl lg:w-[676px] font-semibold leading-10 w-[369px]"/>
-            <Paragraph title="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai." className="lg:w-[678px] font-normal tracking-[0.02rem] leading-6 w-[369px]"/>
+            <MainTitle title="100% money back guaranteed if you are not satisfied" className="text-3xl lg:text-4xl max-w-[676px] font-semibold leading-10"/>
+            <Paragraph title="We crafted Afforai with total belief in our ability to make a chatbot that is not only powerful and reliable, but able to maximise your satisfaction as a user. This is why we have implemented a money back guarantee if you find yourself not satisfied with the capabilities of Afforai." className="max-w-[678px] font-normal tracking-[0.02rem] leading-6 "/>
             </div>
            
            
             <div className=" flex flex-col mt-6 lg:mt:0">
-            <img src={CEOImage} alt="Image of our features" className="w-[417px] h-[261px]"/>
+            <img src={CEOImage} alt="Image of the CEO giving us guarantee on refund" className=""/>
            </div>
            </div>
         </section>
