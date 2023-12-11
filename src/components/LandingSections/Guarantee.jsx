@@ -12,7 +12,7 @@ const Guarantee =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[19rem] mt-[10rem]">
+        <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem]">
             <div className="flex justify-evenly flex-wrap">
 
             <div className="flex flex-col gap-5 ">

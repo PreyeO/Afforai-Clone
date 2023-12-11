@@ -14,15 +14,15 @@ import ModuleSubTitle from "../UI/Titles/ModuleSubTitle"
 
 const Modules = () => {
     return (
-      <section className="flex flex-col lg:mt-[19rem] mt-[10rem]">
+      <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem]">
         <div className="flex justify-between flex-wrap mx-auto lg:mx-0">
           
         
-          <div className="flex flex-col justify-center items-center order-2 lg:order-[-2] ">
+          <div className="flex flex-col justify-center items-center order-2 lg:order-[-1] ">
             <img src={ModulesImage} alt="Image showing the varous modules" className="w-[485px] h-[440px]" />
           </div>
       
-          <div className="flex flex-col gap-5  justify-center order-1 lg:order-[-1]">
+          <div className="flex flex-col gap-5  justify-center order-1 lg:order-[-2]">
           
             <div className="">
                 

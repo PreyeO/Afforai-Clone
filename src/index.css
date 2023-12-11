@@ -30,6 +30,9 @@ nav {
     border: 1px solid hsla(0, 0%, 100%, .2);
     color: #fff;
 }
+.bg-color:hover{
+  background:#370097
+}
 
 
 .btn {
@@ -86,8 +89,6 @@ nav {
   .menu-open .lg\:flex {
     display: flex; 
   }
-
-
 }
 
 section{
@@ -95,5 +96,6 @@ section{
     margin: 0 auto;  
     padding-left: 2%;
     padding-right: 2%;
+    
 }
 

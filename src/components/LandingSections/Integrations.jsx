@@ -14,9 +14,9 @@ const Integrations =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[19rem] mt-[10rem]">
-            <div className="flex flex-col lg:justify-center lg:text-center
-             lg:items-center gap-7 text-left justify-start items-start px-4 lg:px-0">
+        <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem]">
+            <div className="flex flex-col md:justify-center md:text-center
+             md:items-center gap-7 text-left justify-start items-start px-4 lg:px-0">
 
           
             <HeaderCard label="Seamless Integrations - Coming Soon" className="w-[250px]"/>

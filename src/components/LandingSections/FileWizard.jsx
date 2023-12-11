@@ -13,7 +13,7 @@ const FileWizard =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[17rem] mt-[10rem]">
+        <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem]">
             <div className="flex justify-evenly flex-wrap">
             <div className=" lg:flex flex-col justify-center items-center 
             order-2 lg:order-[-2] mt-10 hidden">

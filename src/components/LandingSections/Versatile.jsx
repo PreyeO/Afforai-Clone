@@ -14,24 +14,24 @@ const Versatile =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[19rem] mt-[10rem] ">
-            <div className="flex lg:justify-evenly flex-wrap mx-auto lg:mx-0 px-4 lg:px-0">
+        <section className="flex flex-col lg:mt-[19rem] md:mt[15rem] mt-[10rem] ">
+            <div className="flex md:justify-evenly flex-wrap mx-auto md:mx-0 px-4 md:px-0">
             <div className="flex flex-col gap-5 justify-center">
              
             <HeaderCard label="Most versatile" className="inline-block max-w-[130px]"/>
          
             <SubTitle title="Create multiple chatbots for different purposes" className="lg:text-4xl max-w-[524px] font-semibold text-3xl"/>
             <Paragraph title="Legal documents? Summarising a book? Extracting data from a website? We allow you to create multiple chatbots at one time, so you can use Afforai for a whole range of purposes." className="max-w-[524px] font-normal"/>
-            <div className="lg:flex gap-5 hidden ">
-                <TryBtn label="Get started"/>
-                <LightBtn label="Viewing price"/>
+            <div className="md:flex gap-5 hidden ">
+                <TryBtn label="Get started" className=""/>
+                <LightBtn label="Viewing price" className=""/>
             </div>
             </div>
       
-           <div className="hidden lg:block">
+           <div className="hidden md:block md:mt-10">
             <img src={VersatileImage} alt="Image showing how versatile we are" className="w-[612px] h-[568px]"/>
            </div>
-           <div className="lg:hidden block mt-10">
+           <div className="md:hidden block mt-10">
             <img src={VersatileImgMobile} alt="Image showing how versatile we are" className="w-[401px] h-[527px]"/>
            </div>
            </div>

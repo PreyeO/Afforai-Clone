@@ -12,7 +12,7 @@ const Advice =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[19rem] mt-[10rem] justify-center items-center text-center">
+        <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem] justify-center items-center text-center">
         
 
         <div className="flex flex-col gap-5 justify-center items-center">

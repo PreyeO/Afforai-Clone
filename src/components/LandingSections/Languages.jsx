@@ -13,7 +13,7 @@ const Languages =() => {
 
 
     return(
-        <section className="flex flex-col lg:mt-[19rem]">
+        <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-0">
             <div className="flex justify-evenly flex-wrap">
 
             <div className="flex flex-col gap-5 mt-[9rem]">

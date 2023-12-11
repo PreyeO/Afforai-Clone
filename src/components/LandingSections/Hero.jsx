@@ -40,23 +40,23 @@ const Hero = () => {
           title="Afforai is an AI chatbot that searches, summarizes, and translates info from multiple sources to produce trustworthy research. Feed lengthy research documents to stacks of dry compliance requirements and extract the key findings you need."
           className="max-w-screen-sm font-normal text-base lg:text-center text-left px-4"
         />
-        <div className="lg:flex hidden lg:gap-10">
+        <div className="md:flex hidden md:gap-10">
           <FeaturesCard label="Summarize Key Findings" />
           <FeaturesCard label="Compare Between Documents" />
           <FeaturesCard label="Search For Answers" />
           <FeaturesCard label="Ask in Any Language" />
         </div>
 
-        <div className=" lg:hidden " >
+        <div className=" md:hidden " >
           
-          <div className="flex gap-3" >
+          
             <Marquee autoFill pauseOnClick >
               <FeaturesCard label="Summarize Key Findings" />
               <FeaturesCard label="Compare Between Documents" />
               <FeaturesCard label="Search For Answers" />
               <FeaturesCard label="Ask in Any Language" />
             </Marquee>
-          </div>
+         
         </div>
 
         <div className="flex gap-7 flex-wrap justify-center ">
@@ -70,7 +70,7 @@ const Hero = () => {
         >
           <img src={showCase} alt="image to show how it works"className="w-[1264px]" />
         </div>
-        <div className="hidden z-10  absolute bottom-[-310px] mx-auto lg:flex flex-col justify-center items-center ">
+        <div className="hidden z-10  absolute  mx-auto lg:flex flex-col justify-center items-center ">
           <img src={rgbBg} alt="RGB" className=" mx-auto rounded-xl w-[1408px] " />
         </div>
 

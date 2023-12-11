@@ -7,7 +7,7 @@ const ReviewCard = () => {
       {reviews.slice(0, 7).map((review) => (
         <div
           key={review.id}
-          className="lg:w-[600px] w-[350px]  h-[280px] 
+          className="md:w-[600px] w-[350px]  h-[280px] 
            p-[32px] border border-solid border-gray-300 
            rounded-md"  style={{ marginLeft: '20px' }}
         >
