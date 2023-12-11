@@ -59,33 +59,35 @@ nav {
 
 
 .menu-opened {
-  height: 227px; /* Set the increased height */
-  overflow-y: auto; /* Add scrollbar for smaller screens */
-  position: absolute; /* or use 'fixed' depending on your design */
-  width: 100%; /* Make it full-width */
-  z-index: 1000; /* Adjust z-index to make sure it's on top of other content */
-  backdrop-filter: blur(10px); /* Apply the same backdrop blur effect */
+  height: 227px;
+  overflow-y: auto; 
+  position: absolute; 
+  width: 100%; 
+  z-index: 1000; 
+  backdrop-filter: blur(10px);
   background: white;
+  transition: height 0.3s ease-in-out;
+
 }
 
 /* Update the existing styles */
 @media (max-width: 767px) {
   nav {
-    height: 57.6px; /* Set the default height for smaller screens */
+    height: 57.6px; 
+    
+    
   }
 
   .lg\:flex {
     display: none;
-    flex-direction: column; /* Display the list in a column when the menu is open */
+    flex-direction: column; 
   }
 
   .menu-open .lg\:flex {
-    display: flex; /* Show the list when the menu is open */
+    display: flex; 
   }
 
-  .menu-open {
-    position: relative; /* Change position to relative */
-  }
+
 }
 
 section{
@@ -94,3 +96,4 @@ section{
     padding-left: 2%;
     padding-right: 2%;
 }
+

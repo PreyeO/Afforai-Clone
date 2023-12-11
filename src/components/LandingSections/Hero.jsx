@@ -13,19 +13,19 @@ import Marquee from "react-fast-marquee";
 
 const Hero = () => {
   return (
-    <section className="flex flex-col mt-[32px] py-4 mx-auto">
+    <section className="flex flex-col mt-[6rem] py-4 mx-auto">
       <div className="text-center flex flex-col gap-[32px] justify-center items-center overflow-hidden ">
-        <div className="container flex items-center space-x-2 p-2 pl-4 rounded-lg border-2 border-gray-700  text-gray-700 text-sm font-semibold w-auto h-[44px]">
-          <img src={ApsumoLogo} alt="ApsumoLogo" className="" />
-          <SubTitle title="Now on AppSumo" className="text-[13px] leading-10" />
+        <div className="container flex items-center space-x-2 p-2 pl-4 rounded-xl border-2 border-gray-700  text-gray-700 text-sm font-semibold w-auto h-[44px]">
+          <img src={ApsumoLogo} alt="ApsumoLogo" className="w-[26px] h-[20px]" />
+          <SubTitle title="Now on AppSumo" className="text-[13px]" />
           <div
             className="flex text-[13px] items-center justify-center gap-2 rounded-lg
-           border-gray-700  border border-solid  "
+           border-gray-700  border border-solid "
           >
-            <button className="">
-              <span className="flex gap-2">
+            <button className=" ">
+              <span className="flex gap-2 text-[13px]">
                 Get Lifetime Deal
-                <img src={arrow} alt="ApsumoLogo" className="" />
+                <img src={arrow} alt="ApsumoLogo" className="rotate-90" />
               </span>
             </button>
           </div>
@@ -69,7 +69,7 @@ const Hero = () => {
         >
           <img src={showCase} alt="image to show how it works"className="w-[1264px]" />
         </div>
-        <div className="hidden z-10  absolute bottom-[-210px] mx-auto lg:flex flex-col justify-center items-center ">
+        <div className="hidden z-10  absolute bottom-[-310px] mx-auto lg:flex flex-col justify-center items-center ">
           <img src={rgbBg} alt="RGB" className=" mx-auto rounded-xl w-[1408px] " />
         </div>
 
