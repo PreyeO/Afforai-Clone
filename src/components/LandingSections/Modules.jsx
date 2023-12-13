@@ -1,6 +1,5 @@
 // This is the section that shows all modules
 import ModulesImage from "../../assets/modulesImg.png";
-import SubTitle from "../UI/Titles/SubTitle";
 import Paragraph from "../UI/Titles/Paragraph";
 import HeaderCard from "../UI/Cards/HeaderCard";
 import ModuleTitle from "../UI/Titles/ModuleTitle";
@@ -8,16 +7,17 @@ import FastForward from "../../assets/fast-forward.svg";
 import Search from "../../assets/search-plus.svg";
 import PowerSwitch from "../../assets/power-off.svg";
 import ModuleSubTitle from "../UI/Titles/ModuleSubTitle";
+import MainTitle from "../UI/Titles/MainTitle";
 
 const Modules = () => {
   return (
     <section className="flex flex-col lg:mt-[19rem] md:mt-[15rem] mt-[10rem]">
-      <div className="flex justify-between flex-wrap mx-auto lg:mx-0">
+      <div className="flex justify-around flex-wrap mx-auto lg:mx-0">
         <div className="flex flex-col justify-center items-center order-1 lg:order-[-1] ">
           <img
             src={ModulesImage}
             alt="Image showing the varous modules"
-            className="max-w-[485px] h-[440px]"
+            className="lg:w-[463px] w-[327px] max-h-[420px]"
             loading="lazy"
           />
         </div>
@@ -30,15 +30,15 @@ const Modules = () => {
             />
 
             <div className="pt-4">
-              <SubTitle
+              <MainTitle
                 title="Customize your assistant with a range of different modes"
-                className="lg:text-4xl text-3xl max-w-[692px] font-medium px-[2%] lg:px-0"
+                className=" md:max-w-[500px] lg:w-[696px] px-[2%] lg:px-0"
               />
             </div>
             <div className="pt-4">
               <Paragraph
                 title="Further power your questions with additional modes. Afforai allows you to switch between three different modes, each which has unique ways of utilizing our AI tools to answer your question(s)."
-                className="max-w-[692px]   font-normal tracking-[0.02rem] leading-6 px-[2%] lg:px-0"
+                className="max-w-[500px] font-normal tracking-[0.02rem] leading-6 px-[2%] lg:px-0"
               />
             </div>
           </div>

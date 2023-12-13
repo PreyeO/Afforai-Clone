@@ -5,8 +5,8 @@ const FeaturesCard = ({ label, className }) => {
   return (
     <div
       className={` ${className} flex border border-solid border-gray-300 rounded-md
-          px-2 gap-2 w-auto text-[#212529] 
-          text-base h-[24px] justify-center items-center`}
+          px-2 gap-2 w-[247px] lg:w-auto text-[#212529] 
+          text-base h-[25px] justify-center items-center bg-white`}
     >
       <img
         src={GoodIcon}

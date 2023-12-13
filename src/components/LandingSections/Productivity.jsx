@@ -8,7 +8,7 @@ import MainTitle from "../UI/Titles/MainTitle";
 const Productivity = () => {
   return (
     <section className="flex flex-col mt-[10rem] lg:mt-[19rem] md:mt[15rem] md:justify-center md:items-center md:text-center gap-6 flex-wrap justify-start items-start text-start px-6">
-      <div className="max-w-[556px]">
+      <div className=" w-[323px] md:w-[556px]">
         <HeaderCard
           label="10x your productivity"
           className="inline-block max-w-[200px]"
@@ -26,17 +26,17 @@ const Productivity = () => {
           />
           </div>
         </div>
-        <div className="mt-5 lg:mt-16 flex flex-col justify-center items-center ">
+        <div className="mt-5 lg:mt-16 flex flex-col justify-center items-center mx-auto">
           <img
             src={ProductivityImage}
             alt="Image showing peoductivity in afforia"
-            className="hidden md:block max-w-[900px]"
+            className="hidden md:block lg:max-w-[900px] md:max-w-[600px] h-[492px]"
             loading="lazy"
           />
           <img
             src={ProductivityImageMobile}
             alt="Image showing peoductivity in afforia"
-            className="md:hidden max-w-[500px] block"
+            className="md:hidden max-w-[347px] block mx-auto"
             loading="lazy"
           />
         </div>

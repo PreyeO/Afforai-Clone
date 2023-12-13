@@ -13,6 +13,7 @@
 
 body {
   width: 100%;
+  
 }
 img {
   max-width: 100%;
@@ -22,7 +23,7 @@ img {
 /* Navbar Styles */
 nav {
   text-align: center;
-  font-family: "Manrope", sans-serif;
+  
 }
 
 .bg-color {
@@ -71,15 +72,13 @@ nav {
   );
 }
 
-.menu-opened {
-  height: 227px;
-  overflow-y: auto;
-  position: absolute;
+.menu-open{
+  height: auto;
   width: 100%;
-  z-index: 1000;
-  backdrop-filter: blur(10px);
-  background: white;
-  transition: height 0.3s ease-in-out;
+
+
+
+  
 }
 
 /* Update the existing styles */
@@ -88,12 +87,12 @@ nav {
     height: 57.6px;
   }
 
-  .lg\:flex {
+  .md\:flex {
     display: none;
     flex-direction: column;
   }
 
-  .menu-open .lg\:flex {
+  .menu-open .md\:flex {
     display: flex;
   }
 }
