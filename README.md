@@ -19,4 +19,4 @@ This is an assessment given to me by Afforia team. To replicate thier existing w
  5. React-router-Dom
  6. React FAST Marquee
 
-## Link To Live assessment: https://afforia-web.vercel.app/
+## Link To Live assessment:[ Afforai landing website](https://afforai-web.vercel.app/)
