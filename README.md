@@ -1,4 +1,4 @@
-# AFFORIA LANDING PAGE CLONE
+# AFFORAI LANDING PAGE CLONE
 
 ## Overview
 This is an assessment given to me by Afforia team. To replicate thier existing website found here:
@@ -14,6 +14,9 @@ This is an assessment given to me by Afforia team. To replicate thier existing w
 ## Dev Dependencies/Tools
  1. Reactjs
  2. Tailwind CSS
- 3. React-router-Dom
+ 3. Vite
+ 4. ReactJS
+ 5. React-router-Dom
+ 6. React FAST Marquee
 
 ## Link To Live assessment: https://afforia-web.vercel.app/
