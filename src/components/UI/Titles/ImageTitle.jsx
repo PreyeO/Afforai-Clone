@@ -1,3 +1,4 @@
+// title component to be re-usablle in my sections.
 const ImageTitle = ({ title }) => {
     return (
       <h5

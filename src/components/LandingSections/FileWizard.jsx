@@ -27,7 +27,7 @@ const FileWizard =() => {
 
             <div className="flex flex-col gap-5 justify-center mt-[-5rem] order-1 lg:order-[-1]">
             <HeaderCard label="Get more out of your files" className="inline-block max-w-[200px]" />
-            <SubTitle title="File Wizard - a game changing new feature" className="lg:text-4xl text-3xl max-w-[482px] font-semibold leading-tight"/>
+            <SubTitle title="File Wizard - a game changing new feature" className="lg:text-4xl text-3xl max-w-[482px] font-meduim leading-tight"/>
             <Paragraph title="Convert your files with less effort than ever. Afforai’s File Wizard feature allows you to transform your files, in limitless different ways. We can translate, summarize, or explain your upload in no time." className="max-w-[482px] font-normal"/>
             </div>
            
