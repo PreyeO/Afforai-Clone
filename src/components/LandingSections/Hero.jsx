@@ -25,7 +25,7 @@ const Hero = () => {
             className="w-[26px] h-[20px]"
           
           />
-          <SubTitle title="Now on AppSumo" className="text-[13px]" />
+          <SubTitle title="Now on AppSumo" className="text-[13px] !leading-normal" />
           <div
             className="flex text-[13px] items-center justify-center gap-2 rounded-lg
            border-gray-700  border border-solid "
