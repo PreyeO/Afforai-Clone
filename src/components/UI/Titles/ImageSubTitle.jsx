@@ -1,10 +1,11 @@
+// title component to be re-usablle in my sections.
 const ImageSubTitle = ({ title,  className }) => {
     return (
-      <h5
+      <p
         className={` text-[#222222] text-[12px] ${className}`}
       >
         {title}
-      </h5>
+      </p>
     );
   };
   
