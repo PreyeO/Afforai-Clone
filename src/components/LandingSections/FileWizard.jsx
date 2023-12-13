@@ -16,7 +16,7 @@ const FileWizard = () => {
             src={FileImage}
             alt="Image showing a game feature"
             className="lg:w-[602px] md:w-[400px] h-[342px] "
-            loading="lazy"
+       
           />
         </div>
         <div
@@ -27,7 +27,7 @@ const FileWizard = () => {
             src={FileMobileImage}
             alt="mage showing a game feature"
             className="h-[342px] w-[393px] "
-            loading="lazy"
+         
           />
         </div>
 

@@ -39,7 +39,7 @@ const Accordion = () => {
                           src={arrow}
                           alt="Image of an arrow"
                           className="w-[20px] h-[23px]"
-                          loading="lazy"
+                        
                         />
                       </button>
                     ) : (
@@ -48,7 +48,7 @@ const Accordion = () => {
                           src={arrow}
                           alt="Image of an arrow"
                           className="rotate-180 w-[20px] h-[23px]"
-                          loading="lazy"
+                     
                         />
                       </button>
                     )}

@@ -28,13 +28,13 @@ const Pros = () => {
             src={Card1}
             alt="Image showing our various pros"
             className="  w-[408px] h-[256px] hidden md:block"
-            loading="lazy"
+         
           />
           <img
             src={MobileCard1}
             alt="Image showing our various pros"
             className=" w-[365px] h-[256px] md:hidden block"
-            loading="lazy"
+       
           />
 
           <div className=" h-[94px] bg-white px-4 text-left py-4">

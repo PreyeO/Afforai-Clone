@@ -31,13 +31,13 @@ const Productivity = () => {
             src={ProductivityImage}
             alt="Image showing peoductivity in afforia"
             className="hidden md:block lg:max-w-[900px] md:max-w-[600px] h-[492px]"
-            loading="lazy"
+           
           />
           <img
             src={ProductivityImageMobile}
             alt="Image showing peoductivity in afforia"
             className="md:hidden max-w-[347px] block mx-auto"
-            loading="lazy"
+            
           />
         </div>
       </div>

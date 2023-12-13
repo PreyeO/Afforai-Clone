@@ -8,7 +8,7 @@ const FeaturesTitle = ({ title }) => {
         src={check}
         alt="good icon"
         className=" w-[24px] h-[24px]"
-        loading="lazy"
+      
       />
 
       <h3 className=" text-[#03CC3B] font-medium">{title}</h3>

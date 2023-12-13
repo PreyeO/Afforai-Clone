@@ -12,7 +12,7 @@ const FeaturesCard = ({ label, className }) => {
         src={GoodIcon}
         alt="good icon"
         className="w-[16px] h-[16px]"
-        loading="lazy"
+     
       />
       <h5
         className="text-[13px]

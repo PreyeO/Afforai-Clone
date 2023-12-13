@@ -22,7 +22,7 @@ const Advice = () => {
           src={RGB}
           alt="Image of our features"
           className="rounded-2xl lg:w-[1408px] h-[289px]"
-          loading="lazy"
+      
         />
       </div>
     </section>

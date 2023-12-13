@@ -28,7 +28,7 @@ const Guarantee = () => {
             src={CEOImage}
             alt="Image of the CEO giving us guarantee on refund"
             className=""
-            loading="lazy"
+          
           />
         </div>
       </div>

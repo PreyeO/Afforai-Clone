@@ -35,13 +35,13 @@ const WhyUs = () => {
             src={Card1}
             alt="Image showing why you should use afforia"
             className=" lg:h-[275px] hidden lg:block"
-            loading="lazy"
+       
           />
           <img
             src={ImageCard1}
             alt="Image showing why you should use afforia"
             className="lg:hidden h-[220px] block"
-            loading="lazy"
+           
           />
           <div className=" md:h-[92px] h-[110px] bg-white px-4 text-left py-4">
             <div className="flex gap-5 pb-2">
@@ -62,13 +62,13 @@ const WhyUs = () => {
             src={Card2}
             alt="Image showing why you should use afforia"
             className="lg:h-[272px] hidden lg:block"
-            loading="lazy"
+         
           />
           <img
             src={ImageCard2}
             alt="Image showing why you should use afforia"
             className="lg:hidden block  h-[179px] w-[365px]"
-            loading="lazy"
+      
           />
           <div className=" h-[110px] mb-2 lg:h-[94px] bg-white px-4 text-left py-4">
             <ImageTitle title="Cross Language Querying" />
@@ -86,13 +86,13 @@ const WhyUs = () => {
               src={Card3}
               alt="Image showing why you should use afforia"
               className="lg:h-[249px] lg:w-[716px] hidden lg:block"
-              loading="lazy"
+          
             />
             <img
               src={ImageCard3}
               alt="Image showing why you should use afforia"
               className="lg:hidden block h-[179px] w-[320px]"
-              loading="lazy"
+           
             />
             <div className="  h-[110px] lg:h-[94px] bg-white px-4 text-left py-4">
               <div className="flex gap-5 mb-2 ">
@@ -116,13 +116,13 @@ const WhyUs = () => {
               src={Card5}
               alt="Image showing why you should use afforia"
               className=" lg:h-[249px] lg:w-[716px] hidden lg:block "
-              loading="lazy"
+  
             />
             <img
               src={ImageCard5}
               alt="Image showing why you should use afforia"
               className="lg:hidden block h-[196px] w-[365px]"
-              loading="lazy"
+            
             />
             <div className="h-[110px] lg:h-[94px] bg-white px-4 text-left py-4 mb-2">
               <ImageTitle title="Cross Language Querying" />
@@ -138,13 +138,13 @@ const WhyUs = () => {
             src={Card4}
             alt="Image showing why you should use afforia"
             className="hidden lg:block lg:h-[647px] lg:w-[513px]"
-            loading="lazy"
+      
           />
           <img
             src={ImageCard4}
             alt="Image showing why you should use afforia"
             className="lg:hidden block h-[196px] w-[365px]"
-            loading="lazy"
+ 
           />
           <div className="  h-[110px] lg:h-[94px] bg-white px-4 text-left py-4">
             <ImageTitle title="Unbreakable Security" />

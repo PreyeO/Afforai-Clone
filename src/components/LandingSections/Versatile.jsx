@@ -36,7 +36,7 @@ const Versatile = () => {
             src={VersatileImage}
             alt="Image showing how versatile we are"
             className="w-[612px] h-[568px]"
-            loading="lazy"
+        
           />
         </div>
         <div className="lg:hidden block mt-10">
@@ -44,7 +44,7 @@ const Versatile = () => {
             src={VersatileImgMobile}
             alt="Image showing how versatile we are"
             className="w-[401px] h-[527px]"
-            loading="lazy"
+           
           />
         </div>
       </div>

@@ -31,7 +31,7 @@ const Integrations = () => {
             src={UploadMobileImage}
             alt="Image showing that we can upload images directly to from drives"
             className="w-[616px] h-[402px]"
-            loading="lazy"
+          
           />
         </div>
         <div className=" flex flex-col mt-10 lg:hidden">
@@ -39,7 +39,7 @@ const Integrations = () => {
             src={UploadImage}
             alt="Image showing that we can upload images directly to from drives"
             className="h-[402px] w-[401px]"
-            loading="lazy"
+      
           />
         </div>
       </div>

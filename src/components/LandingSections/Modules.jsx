@@ -18,7 +18,7 @@ const Modules = () => {
             src={ModulesImage}
             alt="Image showing the varous modules"
             className="lg:w-[463px] w-[327px] max-h-[420px]"
-            loading="lazy"
+        
           />
         </div>
 

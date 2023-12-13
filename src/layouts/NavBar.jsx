@@ -23,7 +23,7 @@ const NavBar = () => {
     >
       <div className="relative flex justify-between items-center flex-wrap">
         <div className="flex gap-2">
-          <img src={Logo} alt="Afforia logo" className="w-[24px] h-[24px]"  loading="lazy"/>
+          <img src={Logo} alt="Afforia logo" className="w-[24px] h-[24px]" />
           <h3 className="text-lg">Afforai</h3>
         </div>
 
@@ -37,7 +37,7 @@ const NavBar = () => {
             src={Bars}
             alt="Bars to open navbar on smaller screens"
             className="w-[30px] h-[30px]"
-            loading="lazy"
+        
           />
         </div>
 

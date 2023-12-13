@@ -29,7 +29,7 @@ const Languages = () => {
             src={LanguageImage}
             alt="Image of showing the languages we support"
             className="w-[720px] h-[526px]"
-            loading="lazy"
+      
           />
         </div>
         <div className=" flex flex-col lg:mt-0 mt-8 lg:hidden ">
@@ -37,7 +37,7 @@ const Languages = () => {
             src={LanguageImageMobile}
             alt="Image of showing the languages we support"
             className="h-[524px] w-[377px]"
-            loading="lazy"
+         
           />
         </div>
       </div>

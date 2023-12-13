@@ -20,7 +20,7 @@ const Testimonial = () => {
           src={ProductHuntImg}
           alt="product hunt image"
           className="w-[170px] h-[52px]"
-          loading="lazy"
+         
         />
 
         <MainTitle

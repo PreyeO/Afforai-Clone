@@ -16,7 +16,7 @@ const Footer = () => {
       <div className="flex gap-10 flex-wrap">
         <div className="flex flex-col gap-4 justify-center flex-wrap ">
           <div className="flex gap-2 items-center mx-[4%] md:mx-0">
-            <img src={logo} alt="affori logo" className="w-[24px] h-[24px] "  loading="lazy"/>
+            <img src={logo} alt="affori logo" className="w-[24px] h-[24px] "  />
             <SubTitle
               className="text-lg font-medium text-[#111111]"
               title="Afforai"
@@ -34,7 +34,7 @@ const Footer = () => {
             src={Badge}
             alt="affori barge"
             className="w-[198px] h-[42px] mx-[4%] md:mx-0"
-            loading="lazy"/>
+          />
 
           <SubTitle
             className="text-lg font-medium text-[#111111] mx-[4%] md:mx-0"
@@ -44,7 +44,7 @@ const Footer = () => {
             src={logo2}
             alt="affori logo"
             className="w-[137px] h-[46px] md:mb-5 mx-[4%] md:mx-0"
-            loading="lazy"/>
+           />
         </div>
 
         <div className="flex md:flex-row md:gap-[7rem] flex-col gap-0 px-[4%] md:px-0">

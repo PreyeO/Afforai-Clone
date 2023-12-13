@@ -31,7 +31,7 @@ const Features = () => {
             src={FeatureImage}
             alt="Image of our features we offer at afforia"
             className="md:w-[524px] h-[549px]"
-            loading="lazy"
+          
           />
         </div>
         <div className="mx-auto  mt-10 md:hidden block">
@@ -39,7 +39,7 @@ const Features = () => {
             src={FeatureMobileImage}
             alt="Image of our features we offer at afforia"
             className="max-w-[347px]"
-            loading="lazy"
+          
           />
         </div>
       </div>

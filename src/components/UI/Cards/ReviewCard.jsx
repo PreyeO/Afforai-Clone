@@ -79,7 +79,7 @@ const ReviewCard = ({ setMarqueePosition, marqueePosition }) => {
                 src={review.image}
                 alt="reviewers photo"
                 className="w-[32px] h-[32px]"
-                loading="lazy"
+            
               />
               <h3 className="text-[#525252] text-sm">{review.author}</h3>
             </div>

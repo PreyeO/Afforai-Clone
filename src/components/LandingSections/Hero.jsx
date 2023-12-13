@@ -23,7 +23,7 @@ const Hero = () => {
             src={ApsumoLogo}
             alt="ApsumoLogo"
             className="w-[26px] h-[20px]"
-            loading="lazy"
+          
           />
           <SubTitle title="Now on AppSumo" className="text-[13px]" />
           <div
@@ -76,7 +76,7 @@ const Hero = () => {
             src={showCase}
             alt="image to show how it works"
             className="w-[900px]"
-            loading="lazy"
+           
           />
         </div>
         <div className="hidden z-10  absolute  mx-auto lg:flex flex-col justify-center items-center ">
@@ -84,7 +84,7 @@ const Hero = () => {
             src={rgbBg}
             alt="RGB"
             className=" mx-auto rounded-xl w-[1120px] "
-            loading="lazy"
+       
           />
         </div>
 
@@ -97,7 +97,7 @@ const Hero = () => {
             src={UsersPhoto}
             alt="image to show users"
             className="w-[336px]"
-            loading="lazy"
+         
           />
         </div>
       </div>
